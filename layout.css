@@ -62,7 +62,7 @@ h3 {font: size 20px;
 
 li h4 {text-decoration: underline;
     font-weight:500;
-    margin:0.8rem 0 0.8rem 0;
+
 }
 
 .banner {
@@ -119,4 +119,9 @@ article  {
     text-decoration: none;
     color:wheat;
 
+}
+
+ul {
+    list-style-position: outside;
+    padding-left:30px;
 }
