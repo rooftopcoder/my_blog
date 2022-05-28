@@ -1,0 +1,4 @@
+body, body * {
+    background:hsla(155,50%,50%,0.5) !important;
+    outline:solid hsla(10, 50%, 50%, 0.5) !important;
+}

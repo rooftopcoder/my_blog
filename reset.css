@@ -1,0 +1,17 @@
+
+
+body,body*{
+    padding:unset;
+    margin:unset;
+    border:unset;
+    font-size:unset;
+    text-decoration: unset;
+    box-sizing: unset;
+    color:unset;
+
+}
+
+html * {
+    font: 20px/1.2 arial;
+    color:hsla(10, 90%, 10%, 0.9)
+}
