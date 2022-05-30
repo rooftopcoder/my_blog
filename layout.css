@@ -15,11 +15,11 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-    gap:10px;
-    padding: 30px 30px 30px 30px;
+    gap:0.5rem;
+    padding: 1.5rem;
     background: hsla(10,10%,10%,0.9);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 
 
 }
@@ -31,22 +31,22 @@ body{
 }
 
 h1 {
-    font-size:50px;
+    font-size:2.5rem;
     text-align:center;
     margin:0px;
-    padding:30px 0 0 0;
+    padding:1.5rem 0 0 0;
     background:wheat;
     color:brown;
 
 
 }
 
-article h2 {font-size:30px;
+article h2 {font-size:1.5rem;
     font-weight: 700;
     margin: 1.3rem 0 1.3rem 0;
 }
 
-h3 {font: size 20px;
+h3 {font: size 1rem;
     font-weight: 600;
     margin: 1.0rem 0 1.0rem 0;
 
@@ -60,23 +60,23 @@ li h4 {text-decoration: underline;
 .banner {
     max-width:100%;
     height:auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .social-media {
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    padding:0px 100px 0px 100px;
+    padding:0 5rem 0px 5rem;
     align-items:flex-start;
     background:wheat;
 }
 
 article  {
-    margin:30px;
+    margin:1.5rem;
     padding:1.5rem;
-    border-radius:20px;
+    border-radius:1rem;
     background-color: white;
 }
 
@@ -86,23 +86,23 @@ article  {
     flex-direction:row;
     justify-content: center;
     align-items:flex-start;
-    margin:0px 30px 30px 30px;
+    margin:0px 1.5rem 1.5rem 1.5rem;
     border-radius: 20px;
     border: 1px solid darkred;
     background-color: white;
 }
 
 .item {
-    flex:1 1 100px;
-    padding-right:10px;
-    padding-left:10px;
+    flex:1 1 5rem;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
 }
 
 .footer{
     display:flex;
     justify-content:space-around;
     background: hsla(10,10%,10%,0.9);
-    gap:10px;
+    gap:0.5rem;
 
 
 }
@@ -115,5 +115,5 @@ article  {
 
 ul {
     list-style-position: outside;
-    padding-left:30px;
+    padding-left:1.5rem;
 }
