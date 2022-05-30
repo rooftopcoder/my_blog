@@ -17,3 +17,9 @@ html {
     line-height: 1.2;
     color:hsla(10, 90%, 10%, 0.9)
 }
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+  }
