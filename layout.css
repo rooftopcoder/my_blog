@@ -10,14 +10,6 @@ body{
 
 }
 
-/* .header {
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    margin: 5px 30px 5px 30px;
-
-} */
-
 .menu {
     display:flex;
     flex-direction: row;
