@@ -1,6 +1,6 @@
 
 
-body,body * {
+body {
     padding:unset;
     margin:unset;
     border:unset;
@@ -11,7 +11,9 @@ body,body * {
 
 }
 
-html * {
-    font: 20px/1.2 arial;
+html {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
     color:hsla(10, 90%, 10%, 0.9)
 }
