@@ -20,14 +20,15 @@ body{
     background: hsla(10,10%,10%,0.9);
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-
-
 }
 
-.menu * {
+.menu > a {
+    flex:1 1 5rem;
+    padding-right:0.25rem;
+    padding-left:0.25rem;
+    text-align: center;
     text-decoration:none;
     color:wheat;
-
 }
 
 h1 {
@@ -107,7 +108,8 @@ article  {
 
 }
 
-.footer * {
+.footer > a {
+    text-align: center;
     text-decoration: none;
     color:wheat;
 
